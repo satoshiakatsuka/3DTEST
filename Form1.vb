@@ -7,7 +7,7 @@ Public Class Form1
     Inherits Form
 
     Private animationTimer As Timer
-
+    'コメント追加2026-01-17
     ' 重力定数（各重力源からの影響の大きさ）
     Private Const G As Single = 100000.0F
 
@@ -343,6 +343,10 @@ Public Class Form1
         Public Property RotationSpeedY As Single
         Public Property RotationSpeedZ As Single
     End Class
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 
 #End Region
 
