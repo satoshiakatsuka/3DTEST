@@ -22,7 +22,7 @@ Namespace My
     '   ' If a splash dialog is used, this sets the minimum display time:
     '   e.MinimumSplashScreenDisplayTime = 4000
     ' End Sub
-
+    'コメント追加　その２
     Partial Friend Class MyApplication
 
     End Class
